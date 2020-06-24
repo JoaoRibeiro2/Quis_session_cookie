@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', 'Arial', sans-serif;
+}
+body
+{
+	
+}
+
+.container
+{
+	width: 90%;
+	height: 90%;
+	margin: 2% auto;
+	
+}
+
+
+h2
+{
+	font-weight: 500;				
+}
+
+p{
+	font-weight: 100;
+	font-family: 'Arial', sans-serif;
+	margin: 10px;
+}
+.p-botao input
+{
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: none;
+	background: rgba(0,139,139,0.8);
+	color: #fff;
+	transition: 0.5s;
+	outline: none;
+	margin-top: 10px;
+}
+.p-botao input:hover
+{
+	background: rgb(0,139,139);
+}
